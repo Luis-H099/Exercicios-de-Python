@@ -1,0 +1,6 @@
+n = input('Digite algo:')
+print('oque você escreveu contém apenas letras?',n.isalpha())
+print('oque você escreveu contém apenas números?',n.isnumeric())
+print('oque você escreveu está totalmente em maiúsculo?',n.isupper())
+print('oque você escreveu contém letras, números ou ambos?',n.isalnum())
+print('o tipo primitivo desse valor é:', type(n))
